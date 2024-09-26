@@ -34,53 +34,53 @@ kelimeler = ["güzel, "bilmek", "soru", "iyileşmek", "gitmek", "zaman", "su", "
 
              'dost', 'soyisim', 'aile', 'üç', 'okumak','kişi', 'hərkəs', 'güç', 'bilmek', 'doğru', 'tam', 'gece', 'Emirbozan',
 
-             'çevre', 'eski', 'arama', 'yaşma', 'əhali', 'yaxın', 'yol', 'bəy', 'tarix', 'özellik', 'bölüm', 'şəxsi', 'ağıl',
+             'çevre', 'eski', 'arama', 'özelharekat', 'ahali', 'yakın', 'yol', 'boy', 'tarih', 'özellik', 'bölüm', 'şahsi', 'akıl',
 
-             'kimsə', 'pak', 'baş', 'gerek', 'yaxın', 'anlamaq', 'yuxarı', 'banka', 'kriz', 'ayak', 'daşımaq', 'geri', 'toplu',
+             'kimse', 'temiz', 'batı', 'gereksiz', 'yakın', 'anlamak', 'yukarı', 'banka', 'kriz', 'ayak', 'taşımak', 'geri', 'toplu',
 
-             'maşın', 'maddə', 'türk', 'qəlyan', 'görüldü', 'hava', 'sayı', 'farklı', 'qrup', 'otaq', 'bacı', 'dolmaq', 'xəbər',
+             'araba', 'madde', 'türk', 'nargile', 'görüldü', 'hava', 'sayı', 'farklı', 'qurup', 'otuz', 'bacı', 'dolmak', 'haber',
 
-             'allah', 'ayrıca', 'gələn', 'çin', 'sual', 'arxa', 'qazanmaq', 'yazı', 'dərs', 'açıq', 'öyrənmək', 'sürmək',
+             'Allah', 'ayrıca', 'gelin', 'çin', 'sual', 'arka', 'kazanmak', 'yazı', 'ders', 'açık', 'öğrenmek', 'sürmek',
 
-             'dil', 'şirkət', 'qaynaq', 'bitmək', 'program', 'devametmek', 'hareket', 'rəng', 'açılmaq', 'hak', 'inanmaq',
+             'dil', 'şirket', 'kaynak', 'bitmek', 'program', 'devametmek', 'hareket', 'renk', 'açılmak', 'hak', 'inanmak',
 
-             'çalmaq', 'zaman', 'mahnı', 'qazet', 'yaratmaq', 'yaxşı', 'dəyər', 'tanımaq', 'kley', 'doxdur', 'gəlir',
+             'çalmak', 'zaman', 'mahnı', 'qazet', 'yaratmak', 'yaşam', 'diyar', 'tanımak', 'yapışkan', 'doktor', 'gelir',
 
-             'hərbiçi', 'zəfər', 'dünya', 'kino', 'üzere', 'satıcı', 'zolaq', 'telefon', 'aydın', 'dəniz', 'ikinci',
+             'komando', 'zafer', 'dünya', 'film', 'üzeri', 'satıcı', 'kolluk', 'telefon', 'aydın', 'deniz', 'ikinci',
 
-             'qalxmaq', 'düzgün', 'qarlı', 'gəlir', 'keçən', 'boyun', 'düşüncə', 'milyon', 'oynamaq', 'dəyişmək', 'tütün',
+             'kalkmak', 'düzgün', 'karlı', 'gelir', 'keşkül', 'boyun', 'düşünce', 'milyon', 'oynamaq', 'değişmek', 'tütün',
 
-             'yaratmaq', 'xallı', 'fikir', 'keçmək', 'söyüş', 'qurmaq', 'fakt', 'buna', 'rəsim', 'ışıq', 'içmək',
+             'yaratmak', 'ben', 'fikir', 'keçi', 'küfür', 'kurmak', 'fakt', 'buna', 'resim', 'ışıq', 'içmek',
 
-             'xanım', 'xəstə', 'ehtiyac', 'nöktə', 'yönlü', 'xəta', 'oyun', 'artmak', 'yenidən', 'şar', 'qısa', 'asta',
+             'hanım', 'hasta', 'ihtiyaç', 'nokta', 'yeto', 'hata', 'oyun', 'artmak', 'yeniden', 'şal', 'kısa', 'asta',
 
-             'şan', 'qan', 'əsla', 'ağıl', 'orada', 'diqqət', 'uzaq', 'bilgisayar', 'gələcək', 'görünmək',
+             'şan', 'kan', 'asla', 'ağıl', 'orada', 'dikkat', 'uzak', 'bilgisayar', 'gelecek', 'görünmek',
 
-             'şəkil', 'oğul', 'dinləmək', 'uyğun', 'manat', 'passiv', 'dəqiq', 'unutmaq', 'cəld', 'eynək', 'pis',
+             'şekiliz', 'okul', 'dinlemek', 'uygun', 'dolar', 'passiv', 'tutku', 'unutmak', 'hırslı', 'gözlük', 'pis',
 
-             'maşın', 'ağız', 'dünya', 'uygulamak', 'xala', 'örnek', 'azlıq', 'baxmaq', 'dərəcə', 'mümkün', 'dondurma',
+             'maşın', 'ağız', 'dünya', 'uygulamak', 'hala', 'örnek', 'azlık', 'bakmak', 'derece', 'mümkün', 'dondurma',
 
-             'divar', 'onsuz', 'sənə', 'ana', 'xəstəlik', 'öğrenci', 'televizor', 'kino', 'stul', 'ölmək', 'taksi', 'üst',
+             'divar', 'onsuz', 'sene', 'ana', 'hastalık', 'öğrenci', 'televizor', 'kino', 'stul', 'ölmek', 'taksi', 'üst',
 
              'baş', 'mahnı', 'sevgi', 'enerji', 'üniversite', 'spor', 'türlü', 'cansız', 'balta', 'soyuducu', 'ölüm',
 
-             'dərdli', 'sağlam', 'inək', 'banan', 'hissetmek', 'nənə', 'sabah', 'internet', 'texnik', 'dondurma',
+             'dertli', 'sağlam', 'inek', 'muz', 'hissetmek', 'nine', 'sabah', 'internet', 'teknik', 'dondurma',
 
-             'mərkəz', 'orta', 'yerinə', 'düz', 'kənd', 'yorulmaq', 'aşağı', 'cavab', 'yatmaq', 'torpaq', '', 'axşam',
+             'merkez', 'orta', 'yerine', 'düz', 'kent', 'yorulmak', 'aşağı', 'cevab', 'yatmak', 'toprak', 'axşam',
 
-             'sarı', 'götürmek', 'qatılmaq', 'yoxsul', 'qurmaq', 'ödəmək', 'sanki', 'qarın', 'xəstə', 'şəhər', 'qalxmaq',
+             'sarı', 'götürmek', 'katılmak', 'yoksul', 'kurmak', 'ödemek', 'sanki', 'karın', 'hasta', 'şehir', 'kalkmak',
 
-             'qara', 'qaynaq', 'həftə', 'lənpə', 'hesab', 'lətif', 'başqa', 'davranış', 'mutfak', 'kent', 'bazar',
+             'qara', 'qaynaq', 'hafta', 'künefe', 'hesap', 'latif', 'başka', 'davranış', 'mutfak', 'kent', 'bazar',
 
-             'vacib', 'ayrı', 'qiymət', 'hakkında', 'qaldırmaq', 'kola', 'tək', 'hazırlamaq', 'ayna', 'sonunda', 'yavaş',
+             'vacib', 'ayrı', 'qiymet', 'hakkında', 'kaldırmak', 'kola', 'tek', 'hazırlamak', 'ayna', 'sonunda', 'yavaş',
 
-             'lazım', 'dəyər', 'arvad', 'yallı', 'varlı', 'tar', 'arı', 'təkcə', 'satış', 'içəri', 'qoğal', 'məhkum',
+             'lazım', 'diyor', 'avrat', 'yallı', 'varlı', 'tar', 'arı', 'türkçe', 'satış', 'içeri', 'güzel', 'mahkum',
 
-             'şənlik', 'acı', 'xeyir', 'qorumaq', 'qat', 'ekonomi', 'genel', 'bildirmək', 'şəkər', 'heyvan', 'sarqı',
+             'şenlik', 'acı', 'hayır', 'korumak', 'kat', 'ekonomi', 'genel', 'bildirmek', 'şeker', 'hayvan', 'sarqı',
 
-             'yumurta', 'alma', 'plan', 'istəmək', 'kərim', 'kriz', 'birlik',
+             'yumurta', 'alma', 'plan', 'istemek', 'kerim', 'kriz', 'birlik',
 
-             'qapanmaq'
+             'kapalı'
 
              ]
 
