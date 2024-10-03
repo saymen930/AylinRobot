@@ -1,6 +1,6 @@
-# @MusicAzBot
-# Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə
+# 
+# 
+# 
 
 
 from os.path import dirname, basename, isfile, join
