@@ -1,6 +1,6 @@
-# @AylinRobot
-# Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə Oğlum
+#
+#
+# Repo 
 
 import random, os
 from random import choice
