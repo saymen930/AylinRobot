@@ -1,6 +1,6 @@
-# @AylinRobot
-# Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə Oğlum
+# 
+# 
+# Repo 
 
 from os.path import dirname, basename, isfile, join
 import glob
