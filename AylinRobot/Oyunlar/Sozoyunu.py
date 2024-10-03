@@ -11,7 +11,7 @@ from pyrogram.types import Message
 
 
 # Oyunu başlat. 
-@app.on_message(filters.command("game")) 
+@app.on_message(filters.command("oyun")) 
 async def kelimeoyun(c:Client, m:Message):
     global oyun
     aktif = False
@@ -22,14 +22,14 @@ async def kelimeoyun(c:Client, m:Message):
         aktif = False
 
     if aktif:
-        await m.reply("**❗ Oyun Onsuzda Qrupnuzda Davam edir ✍🏻 \n Oyunu dayandırmaq üçün /stop yazabilərsiniz")
+        await m.reply("**❗ Oyun zaten grubunuzda devam ediyor ✍🏻 \n Oyunu durdurmak için /dur yazabilirsiniz")
     else:
-        await m.reply(f"**{m.from_user.mention}** Tarafından! \nKelime Bulma Oyunu Başladı .\n\nHər birinizə uğurlar ❤️✨ !",reply_markup=kanal) 
+        await m.reply(f"**{m.from_user.mention}** Tarafından! \nKelime Bulma Oyunu Başladı .\n\nHer kese başarılar ❤️✨ !",reply_markup=kanal) 
         
         oyun[m.chat.id] = {"kelime":kelime_sec()}
         oyun[m.chat.id]["aktif"] = True
-        oyun[m.chat.id]["round"] = 1
-        oyun[m.chat.id]["kec"] = 0
+        oyun[m.chat.id]["rount"] = 1
+        oyun[m.chat.id]["atla"] = 0
         oyun[m.chat.id]["oyuncular"] = {}
         
         kelime_list = ""
@@ -40,13 +40,13 @@ async def kelimeoyun(c:Client, m:Message):
             kelime_list+= harf + " "
         
         text = f"""
-🎯 Raund : {oyun[m.chat.id]['round']}/20 
-📝 Tapılacaq Söz :   <code>{kelime_list}</code>
-💰 Yığdınız Xal: 1
-🔎 İlk Hərf: 1. {oyun[m.chat.id]["kelime"][0]}
-✍🏻 Uzunluq : {int(len(kelime_list)/2)} 
+🎯 Raunt : {oyun[m.chat.id]['round']}/20 
+📝 Bulunacak söz :   <code>{kelime_list}</code>
+💰 Topladığınız Puan: 1
+🔎 İlk Harf: 1. {oyun[m.chat.id]["kelime"][0]}
+✍🏻 Uzunluk : {int(len(kelime_list)/2)} 
 
-✏️ Qarışıq Həriflərdən düzgün sözü tapın.
+✏️ Karışık Harflerden doğru kelimeyi bulun.
         """
         await c.send_message(m.chat.id, text)
         
@@ -60,7 +60,7 @@ from helpers.kelimeler import kelime_sec
 
 
 
-@app.on_message(filters.command("kec") & ~filters.private & ~filters.channel)
+@app.on_message(filters.command("atla") & ~filters.private & ~filters.channel)
 async def passs(c:Client, m:Message):
     global oyun
     
@@ -73,7 +73,7 @@ async def passs(c:Client, m:Message):
     if aktif:
         if oyun[m.chat.id]["kec"] < 3:
             oyun[m.chat.id]["kec"] += 1 
-            await c.send_message(m.chat.id,f"😑 Maksimum 3 keçmə haqqınız var!\n➡️ Söz uğurla keçildi !\n✏️ Düzgün Söz : **<code>{oyun[m.chat.id]['kelime']}</code>**")
+            await c.send_message(m.chat.id,f"😑 Maksimum 3 geçme hakkınız var!\n➡️ Kelime başarıyla geçildi !\n✏️ Doğru Kelime : **<code>{oyun[m.chat.id]['kelime']}</code>**")
             
             oyun[m.chat.id]["kelime"] = kelime_sec()
             oyun[m.chat.id]["aktif"] = True
@@ -86,20 +86,20 @@ async def passs(c:Client, m:Message):
                 kelime_list+= harf + " "
             
             text = f"""
-🎯 Raund : {oyun[m.chat.id]['round']}/20 
-📝 Tapılacaq Sözlər :   <code>{kelime_list}</code>
-💰 Qazandığın Xal : 1
-🔎 İlk hərf : 1. {oyun[m.chat.id]["kelime"][0]}
-✍🏻 𝖴𝗓𝗎𝗇𝗅uq: {int(len(kelime_list)/2)} 
+🎯 Raunt : {oyun[m.chat.id]['round']}/20 
+📝 Bulunacak söz :   <code>{kelime_list}</code>
+💰 Topladığınız Puan: 1
+🔎 İlk Harf: 1. {oyun[m.chat.id]["kelime"][0]}
+✍🏻 Uzunluk : {int(len(kelime_list)/2)} 
 
-✏️ Qarışıq həriflərdən düzgün sözü tapın.
+✏️ Karışık Harflerden doğru kelimeyi bulun.
             """
             await c.send_message(m.chat.id, text)
             
         else:
-            await c.send_message(m.chat.id, f"<code>**❗ Keçiş Düzgün Qeydedildi! </code> \n Oyunu dayandırmaq üçün yazıb /stop dayandıra bilərsiniz ✍🏻**")
+            await c.send_message(m.chat.id, f"<code>**❗ Geçiş başarıyla kaydedildi! </code> \n Oyunu durdurmak için yazın /dur Durdura bilirsiniz ✍🏻**")
     else:
-        await m.reply(f"❗ **Qrupunuzda aktiv oyun oynanılır!\n Yeni bir oyuna başlamaq üçün /game yazabilərsiniz✍🏻**")
+        await m.reply(f"❗ **Grubunuzda aktif bir oyun oynanıyor!\n Yeni bir oyuna başlamak için /oyun yaza bilirsiniz✍🏻**")
         
         
         
@@ -152,19 +152,19 @@ from helpers.kelimeler import kelime_sec
 
 
 
-@app.on_message(filters.command("stop") & ~filters.private & ~filters.channel)
+@app.on_message(filters.command("dur") & ~filters.private & ~filters.channel)
 async def stop(c:Client, m:Message):
     global oyun
     
     siralama = []
     for i in oyun[m.chat.id]["oyuncular"]:
-        siralama.append(f"{i}   :   {oyun[m.chat.id]['oyuncular'][i]} Bal")
+        siralama.append(f"{i}   :   {oyun[m.chat.id]['oyuncular'][i]} puan")
     siralama.sort(reverse=True)
     siralama_text = ""
     for i in siralama:
         siralama_text += i + "\n"     
     
-    await c.send_message(m.chat.id, f"**{m.from_user.mention}** Tərəfindən Oyun Dayandırıldı \n\nYeni Oyuna Başlamaq üçün/oyun Yaza Bilərsiniz\n\n 📝 Yığdığınız Xal  :\n\n{siralama_text}")
+    await c.send_message(m.chat.id, f"**{m.from_user.mention}** Oyun tarafından durduruldu \n\nYeni Oyuna Başlamak için/oyun Yaza Bilərsiniz\n\n 📝 Topladığınız puanlar  :\n\n{siralama_text}")
     oyun[m.chat.id] = {}
     
         
@@ -192,7 +192,7 @@ async def buldu(c:Client, m:Message):
     try:
         if m.chat.id in oyun:
             if m.text.lower() == oyun[m.chat.id]["kelime"]:
-                await c.send_message(m.chat.id,f"✨ Təbriklər !\n**{m.from_user.mention}** \n**<code>{oyun[m.chat.id]['kelime']}</code>** , Sözünü Tapdı 🤩")
+                await c.send_message(m.chat.id,f"✨ Tebrikler !\n**{m.from_user.mention}** \n**<code>{oyun[m.chat.id]['kelime']}</code>** , Sözünü Buldu 🤩")
                 if f"{m.from_user.mention}" in rating:
                     rating[f"{m.from_user.mention}"] += 1
                 else:
@@ -211,13 +211,13 @@ async def buldu(c:Client, m:Message):
                 if not oyun[m.chat.id]["round"] <= 20:
                     siralama = []
                     for i in oyun[m.chat.id]["oyuncular"]:
-                        siralama.append(f"{i} :   {oyun[m.chat.id]['oyuncular'][i]}  Xal")
+                        siralama.append(f"{i} :   {oyun[m.chat.id]['oyuncular'][i]}  Puan")
                     siralama.sort(reverse=True)
                     siralama_text = ""
                     for i in siralama:
                         siralama_text += i + "\n"
                     
-                    return await c.send_message(m.chat.id,f"✅ Oyun Qutardı✓ \n\n📝 Qazandığı Xal :\n\n{siralama_text}\n\n Yeni Oyuna Başlamaq üçün /oyun Yaza Bilərsən !")
+                    return await c.send_message(m.chat.id,f"✅ Oyun Bitdi✓ \n\n📝 Kazandığı puan :\n\n{siralama_text}\n\n Yeni Oyuna Başlamak için /oyun Yaza Bilirsin !")
                 
                 
                 
@@ -234,7 +234,7 @@ async def buldu(c:Client, m:Message):
 🔎 İlk hərf: 1. {oyun[m.chat.id]["kelime"][0]}
 ✍🏻 Uzunluq : {int(len(kelime_list)/2)} 
 
-✏️ Qarışıq həriflərdən düzgün sözü tapın.
+✏️ Karışık harflerden doğru kelimeyi bulun.
                         """
                 await c.send_message(m.chat.id, text)
     except KeyError:
