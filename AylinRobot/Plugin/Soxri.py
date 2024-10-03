@@ -1,6 +1,6 @@
-# @AylinRobot
-# Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə Oğlum
+# 
+# 
+# Repo 
 
 import time
 from time import time
@@ -190,12 +190,12 @@ photolist = [
 ]
 
 
-@app.on_message(filters.command(["soxri"]))
+@app.on_message(filters.command(["foto3"]))
 async def soxri(bot: app, m: Message):
     start = time()
-    replymsg = await m.reply_text("**❤ Rondom Bir Şəkil Seçilir...**")
+    replymsg = await m.reply_text("**❤ Rastgele Bir fotoğraf Seçiliyor...**")
     end = round(time() - start, 2)
     photo = random.choice(photolist)
-    text = f"❤️ **{Config.BOT_USERNAME} Sizin Üçün Rondom Bir Şəkil Seçdi**"
+    text = f"❤️ **{Config.BOT_USERNAME} Sizin için Rastgele Bir fotoğraf Seçtim**"
     await bot.send_photo(m.chat.id, photo=photo, caption=text)
     await replymsg.delete()
