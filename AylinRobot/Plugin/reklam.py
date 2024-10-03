@@ -380,73 +380,73 @@ class LAN(object):
 
 
 
-    BILDIRIM = """**🆕 Yeni istifadəçi bota start etdi**\n\n👤 {}\n🆔 `{}`\n🔗 [{}](tg://user?id={})"""
-    GRUP_BILDIRIM = """**🆕 Yeni istifdəçi bota qrupda start etdi**\n\n👤 Qrupa əlavə edən: `{}`\n🆔 Qrupa əlavə edən istifadəçi id: `{}`\n🔗 Profil linki: [{}](tg://user?id={})\nQrupun ID: {})
+    BILDIRIM = """**🆕 Yeni kullanıcı botu başlatdı**\n\n👤 {}\n🆔 `{}`\n🔗 [{}](tg://user?id={})"""
+    GRUP_BILDIRIM = """**🆕 Yeni kullanıcı botu grupta başlatdı**\n\n👤 Gruba ekleyen: `{}`\n🆔 Gruba ekleyen kullanıcı id: `{}`\n🔗 Profil linki: [{}](tg://user?id={})\nGrupun ID: {})
 
 """
     SAHIBIME = """
-sahibimə
+sahibime
 """
     PRIVATE_BAN = """
-Məyusam, əngəlləndiniz! Bunun bir xəta olduğunu düşünürsünüzsə {} yazın.
+Üzgünüm, engellendiniz! Bunun bir hata olduğunu düşünüyorsanız {} yazın.
  """
     GROUP_BAN = """
-Məyusam, qrupunuz qara siyahıya əlavə olundu! Artıq burada qala bilmərəm! Bunun bir xəta olduğunu düşünürsünüzsə {} yazın.'
+Üzgünüm, grubunuz kara listeye alındı! Artık burada kalamam! Bunun bir hata olduğunu düşünüyorsanız {} yazın
 """
     NOT_ONLINE = """
-aktiv deyil
+aktiv değil
 """
     BOT_BLOCKED = """
-botu əngəlləyib
+botu engellemiş
 """
     USER_ID_FALSE = """
-istifadəçi ID yanlışdır.
+kullanıcı ID yanlış.
 """
     BROADCAST_STARTED = """
-```📥 Reklam yayımı başladı!\nBitəndə mesaj göndərəcəm
+```📥 Reklam yayını başladı!\nBitince mesaj gönderirim
 """
     BROADCAST_STOPPED = """
-```✅ Reklam yayımı uğurla tamamlandı.```\n\n**Bu qədər vaxtda tamamlandı** `{}`\n\n**Ümumi istifadəçilər:** `{}`\n\n**Ümumi göndərmə cəhdləri:** `{}`\n\n**Uğurla göndərilən:** `{}`\n\n**Ümumi xəta:** `{}`
+```✅ Reklam yayını başarıyla tamamlandı.```\n\n**Bu kadar sürede tamamlandı** `{}`\n\n**Toplam kullanıcılar:** `{}`\n\n**Toplam gönderim denemeleri:** `{}`\n\n**Başarıyla gönderilen:** `{}`\n\n**Toplam hata:** `{}`
 """
     STATS_STARTED = """
-{} **Zəhmət olmasa gözləyin, bilgiləri gətirirəm!**
+{} **Lütfen Bekleyin, bilgileri aktarayım!**
 """
     STATS = """
-**@{} Məlumatları**\n\n**İstifadəçiləri;**\n» Ümumi: `{}`\n» Qruplar: `{}`\n» Şəxsi: `{}`\n\n**Disk İstifadəsi;**\n» Disk'in Sahəsi: `{}`\n» İstifadə Edilən: `{} ({}%)`\n» Boş Qalan: `{}`\n\n**🎛 Ən yüksək istifadə dəyərləri;**\n» CPU: `{}%`\n» RAM: `{}%`\n» Pyrogram: {}
+**@{} bilgileri**\n\n**kullanıcıları;**\n» hepsi: `{}`\n» Qruplar: `{}`\n» özel: `{}`\n\n**Disk Kullanımı;**\n» Disk'in Alanı: `{}`\n» Kullanılan: `{} ({}%)`\n» Boş kalan: `{}`\n\n**🎛 En yüksek kullanım değerleri;**\n» CPU: `{}%`\n» RAM: `{}%`\n» Pyrogram: {}
 """
     BAN_REASON = """
-Bu səbəbdən qadağan olundunuz @{} tərəfindən avtomatik olaraq yaradılmışdır."""
+Bu nedenle yasaklandınız @{} tarafından otomatik olarak oluşturulmuştur."""
     NEED_USER = """
-**Zəhmət olmasa istifadəçi ID'si yazın.**
+**Lütfen kullanıcı ID'sini yazın.**
 """
     BANNED_GROUP = """
-🚷 **Qadağan olundu!\n\nQadağan edən:** {}\n**Qrup ID:** `{}`\n**Vaxt:** `{}`\n**Səbəb:** `{}`
+🚷 **Yasaklandı!\n\nYasaklayan:** {}\n**Qrup ID:** `{}`\n**zaman:** `{}`\n**Sebep:** `{}`
 """
     AFTER_BAN_GROUP = """
-**Məyusam, qrupunuz qara siyahıya əlavə edildi!\n\nSəbəb:** `{}`\n\n**Artıq burada qala bilmərəm. Bunun bir xəta olduğunu düşünürsünüzsə, dəstək qrupuna gəlin.**
+**Üzgünüm, Gurupunuz kara listeye ilave edildi!\n\nSebep:** `{}`\n\n**Artıq burada kalmayacağım. Bunun bir hata olduğunu düşünüyorsanız, destek qrupuna gelin.**
 """
-    GROUP_BILGILENDIRILDI = """\n\n✅ **Qrupu bilgiləndirdim və qrupdan çıxdım.**
+    GROUP_BILGILENDIRILDI = """\n\n✅ **Grubu bilgilendirdim ve gruptan çıktım.**
 """
-    GRUP_BILGILENDIRILEMEDI = """\n\n❌ **Qrupu məlumatlandırarkən xəta yarandı:**\n\n`{}`
+    GRUP_BILGILENDIRILEMEDI = """\n\n❌ **Grubu bilgilendirirken hata oluştu:**\n\n`{}`
 """
     USER_BANNED = """
-🚷 **Qadağan olundu\n\nQadağan edən:** {}\n **İstifadəçi ID:** `{}`\n**Vaxt:** `{}`\n**Səbəb:** `{}`
+🚷 **Yasaklandı\n\nYasaklayan:** {}\n **Kullanıcı ID:** `{}`\n**Zaman:** `{}`\n**Sebep:** `{}`
 """
     AFTER_BAN_USER = """
-**Məyusam, qara siyahıya əlavə edildiniz! \n\nSəbəb:** `{}`\n\n**Bundan sonra sizə xidmət etməyəcəyəm.**
+**Hayal kırıklığına uğradım, kara listeye alındınız! \n\nSebeb:** `{}`\n\n**Hayal kırıklığına uğradım, kara listeye alındınız.**
 """
-    KULLANICI_BILGILENDIRME = """\n\n✅ İstifadəçini məlumatlandırdım.
+    KULLANICI_BILGILENDIRME = """\n\n✅ Kullanıcıyı bilgilendirdim.
 """
-    KULLANICI_BILGILENDIRMEME = """\n\n❌ **İstifadəçini məlumatlandırarkən xəta yarandı:**\n\n`{}`
+    KULLANICI_BILGILENDIRMEME = """\n\n❌ **Kullanıcıyı bilgilendirirken bir hata oluştu:**\n\n`{}`
 """
     UNBANNED_USER = """
-🆓 **İstifadəçinin qadağası qaldırıldı!** \nQadağanı qaldıran: {}\n**İstifadəçi ID:** `{}`
+🆓 **Kullanıcının yasağı kaldırıldı!** \nYasağı kaldıran: {}\n**Kullanıcı ID:** `{}`
 """
     USER_UNBAN_NOTIFY = """
-🎊 Sizə gözəl bir xəbərim var! Artıq əngəliniz qaldırıldı!
+🎊 Sizde harika bir haber var! Artık kısıtlamanız kaldırıldı!
 """
     BLOCKS = """
-🆔 **İstifadəçi ID:** `{}`\n⏱ **Vaxt:** `{}`\n🗓 **Qadağan edildiyi tarix:** `{}`\n💬 **Səbəb:** `{}`\n\n"""
+🆔 **Kullanıcı ID:** `{}`\n⏱ **zaman:** `{}`\n🗓 **Yasaklandığı tarih:** `{}`\n💬 **Sebep:** `{}`\n\n"""
     TOTAL_BLOCK = """
-🚷 **Ümumi əngəllənən:** `{}`\n\n{}
+🚷 **Toplam engellenen:** `{}`\n\n{}
 """
