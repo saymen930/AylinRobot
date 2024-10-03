@@ -1,6 +1,6 @@
-# @AylinRobot
-# Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə Oğlum
+# 
+# 
+# Repo 
 
 import aiohttp
 from pyrogram.types import Message
@@ -11,7 +11,7 @@ from pyrogram import Client, filters
 @app.on_message(filters.command("github"))
 async def github(_, message):
     if len(message.command) != 2:
-        await message.reply_text("/github İstifadəçi adı yazmadınız 😐")
+        await message.reply_text("/github Kullanıcı adınızı yazmadınız 😐")
         return
     username = message.text.split(None, 1)[1]
     URL = f'https://api.github.com/users/{username}'
@@ -33,16 +33,16 @@ async def github(_, message):
                 followers = result['followers']
                 following = result['following']
                 caption = f"""**Info Of {name}**
-👨🏻‍💻İstifadəçi adı: {username}
+👨🏻‍💻Kullanıcı Adı: {username}
 🗣️Bio: {bio}
 🔗Profil linki: [Here]({url})
-👤Şirkət: {company}
-📅Yaradılma tarixi: {created_at}
+👤Şirket: {company}
+📅Oluşum Tarihi: {created_at}
 📔Depolar: {repositories}
 🛄Blog: {blog}
-🌐Məkan: {location}
-👁️‍🗨️İzləyicilər: {followers}
-👁️‍🗨️İzlədikləri: `{following}`"""
+🌐Mekan: {location}
+👁️‍🗨️İzleyicilər: {followers}
+👁️‍🗨️Takip ettikleri: `{following}`"""
             except Exception as e:
                 print(str(e))
                 pass
