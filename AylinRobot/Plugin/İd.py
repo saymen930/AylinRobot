@@ -1,6 +1,6 @@
-# @AylinRobot
-# Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə Oğlum
+# 
+# 
+# Repo 
 
 from AylinRobot import AylinRobot as app
 from pyrogram import Client, filters
@@ -14,9 +14,9 @@ def ids(_, message):
     reply = message.reply_to_message
     if reply:
         message.reply_text(
-            f"**Sənin ID**: `{message.from_user.id}`\n**{reply.from_user.first_name}'s ID**: `{reply.from_user.id}`\n**Söhbət ID**: `{message.chat.id}`"
+            f"**Senin ID**: `{message.from_user.id}`\n**{reply.from_user.first_name}'s ID**: `{reply.from_user.id}`\n**Grup ID**: `{message.chat.id}`"
         )
     else:
         message.reply(
-            f"**Sənin ID**: `{message.from_user.id}`\n**Söhbət ID**: `{message.chat.id}`"
+            f"**Senin ID**: `{message.from_user.id}`\n**Grup ID**: `{message.chat.id}`"
         )
