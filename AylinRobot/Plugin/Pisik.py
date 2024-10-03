@@ -1,6 +1,6 @@
-# @AylinRobot
-# Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə Oğlum
+# 
+# 
+# Repo 
 import time
 from time import time
 import random
@@ -16,12 +16,12 @@ photolist = ["https://telegra.ph/file/1559957902ea74780464c.jpg","https://telegr
  
  
 
-@app.on_message(filters.command("pisik"))
+@app.on_message(filters.command("kedi"))
 async def pisik(bot: app, m: Message):
     start = time()
-    replymsg = await m.reply_text("**❤ Rondom Bir Pişik Şəkili Seçilir...**")
+    replymsg = await m.reply_text("**❤ Rastgele Bir kedi fotoğrafı Seçiliyor...**")
     end = round(time() - start, 2)
     photo = random.choice(photolist)
-    text = f"❤️ **{Config.BOT_USERNAME} Sizin Üçün Rondom Bir Pişik Şəkili Seçdi**"
+    text = f"❤️ **{Config.BOT_USERNAME} Sizin Üçün Rastgele Bir kedi Fotoğrafı Seçtim**"
     await bot.send_photo(m.chat.id, photo=photo, caption=text)
     await replymsg.delete()
