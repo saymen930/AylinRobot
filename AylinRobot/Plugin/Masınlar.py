@@ -30,7 +30,7 @@ async def test_bot(bot: app, m: Message):
     await replymsg.delete()
     
     
-@app.on_message(filters.command("masın2"))
+@app.on_message(filters.command("araba2"))
 async def test_app(app: app, m: Message):
     start = time()
     replymsg = await m.reply_text("**❤ Araba Videosu Seçiliyor...**")
