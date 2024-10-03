@@ -1,6 +1,6 @@
-# @AylinRobot
-# Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə Oğlum
+# 
+# 
+# 
 
 import os, asyncio, time, shlex, requests, pyrogram
 from helpers.extract_user import extract_user, last_online
