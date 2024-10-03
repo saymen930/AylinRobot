@@ -1,6 +1,6 @@
-# @AylinRobot
-# Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə Oğlum
+# 
+# 
+# Repo 
 
 import time
 from AylinRobot import AylinRobot as app
@@ -60,7 +60,7 @@ async def Alive(client: Client, message: Message):
         ]
     )
 
-    alive = f"**Haycan❤️ {message.from_user.mention()}, Mənim Adım {Config.BOT_USERNAME}**\n\n✨ Mən Super İşləyirəm\n🍀 Sahibim: [{Config.ALIVE_NAME}](https://t.me/{Config.OWNER_NAME})\n✨ Bot Versiyası: `v{__version__}`\n🍀 Pyrogram Versiyası: `{pyrover}`\n✨ Python Versiyası: `{__python_version__}`\n🍀 İş vaxtı Status: `{uptime}`\n\n**Məni Qrupunuza əlavə etdiyiniz üçün təşəkkürlər ** ❤"
+    alive = f"**Efendim❤️ {message.from_user.mention()}, Benim Adım {Config.BOT_USERNAME}**\n\n✨ bebeğim çalışıyorum\n🍀 Sahibim: [{Config.ALIVE_NAME}](https://t.me/{Config.OWNER_NAME})\n✨ Bot Versiyası: `v{__version__}`\n🍀 Pyrogram Versiyon: `{pyrover}`\n✨ Python Versiyası: `{__python_version__}`\n🍀 İş zamanı Status: `{uptime}`\n\n**Beni Qrupunuza eklediğiniz için teşekkürler ** ❤"
 
     await message.reply_video(
         video=f"{Config.ALIVE_IMG}",
