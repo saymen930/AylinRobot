@@ -1,6 +1,6 @@
-# @AylinRobot
-# Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə Oğlum
+# 
+# 
+# 
 
 
 import os
@@ -33,7 +33,7 @@ async def cb_data(client, message):
             reply_markup=Button.HELP_BUTTONS,
             disable_web_page_preview=True
         )
-    elif message.data == "musıc":
+    elif message.data == "müzik":
         await message.message.edit_text(
             text=Translation.MUSIC_TEXT,
             reply_markup=Button.MUSIC_BUTTONS,
@@ -45,13 +45,13 @@ async def cb_data(client, message):
             reply_markup=Button.TELEGRAPH_BUTTONS,
             disable_web_page_preview=True
         ) 
-    elif message.data == "eylence":
+    elif message.data == "eğlence":
         await message.message.edit_text(
             text=Translation.EYLENCE_TEXT,
             reply_markup=Button.EYLENCE_BUTTONS,
             disable_web_page_preview=True
         )        
-    elif message.data == "sehıd":
+    elif message.data == "şehit":
         await message.message.edit_text(
             text=Translation.SEHID_TEXT,
             reply_markup=Button.SEHID_BUTTONS,
@@ -63,19 +63,19 @@ async def cb_data(client, message):
             reply_markup=Button.OYUN_BUTTONS,
             disable_web_page_preview=True
         )        
-    elif message.data == "sahib":
+    elif message.data == "sahip":
         await message.message.edit_text(
             text=Translation.SAHIB_TEXT,
             reply_markup=Button.SAHIB_BUTTONS,
             disable_web_page_preview=True
         )        
-    elif message.data == "elave":
+    elif message.data == "extra":
         await message.message.edit_text(
             text=Translation.ELAVELER_TEXT,
             reply_markup=Button.ELAVE_BUTTONS,
             disable_web_page_preview=True
         )   
-    elif message.data == "axtar":
+    elif message.data == "ara":
         await message.message.edit_text(
             text=Translation.AXTARIS_TEXT,
             reply_markup=Button.AXTAR_BUTTONS,
