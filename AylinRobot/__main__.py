@@ -1,6 +1,6 @@
-# @AylinRobot
-# Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə Oğlum
+# 
+# 
+# Repo 
 
 import os
 import time
@@ -44,5 +44,5 @@ async def start(client, message):
     
     
 app.start()
-LOGGER.info(f"{Config.BOT_USERNAME} Uğurla Başladı Sahibim {Config.OWNER_NAME}")
+LOGGER.info(f"{Config.BOT_USERNAME} Başarıyla Başladı Sahip {Config.OWNER_NAME}")
 idle()
