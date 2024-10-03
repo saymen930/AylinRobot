@@ -13,7 +13,7 @@ from AylinRobot.config import Config
 
 
 
-temalar = [" [Fidan](https://t.me/addtheme/sf158WSw7LWOtpvV) ",
+temalar = [" [Esila](https://t.me/addtheme/sf158WSw7LWOtpvV) ",
 " [Fidan](https://t.me/addtheme/bpcrFtP4qYu0DdnJ) " ,
 " [Fidan](https://t.me/addtheme/aUFKCX7AQ3aQpDjp) " ,
 " [Fidan](https://t.me/addtheme/L7HVQjC4UUyOfL9y) " ,
