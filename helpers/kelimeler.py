@@ -8,7 +8,7 @@ kelimeler = ["güzel, "bilmek", "soru", "iyileşmek", "gitmek", "zaman", "su", "
 
               "arazi", "fazla", "sistem", "hoş", "geri çekilme", ​​"teknik", "yaklaşma", "salyangoz", "tarih", "açık", "kardeş",
 
-              "ince", "diyor", "görüş", "karşılıklı", "vermek", "sahip olmak", "zaten", "adam", "dyar", "nokta", "tekrar", "bunlar",
+              "ince", "diyor", "görüş", "karşılıklı", "vermek", "sahip", "olmak", "zaten", "adam", "diyar", "nokta", "tekrar", "bunlar",
 
               "kitap", "hata", "bul", "sen", "durum", "ileri", "enerji", "bak", "salatalık", "oyun", "kafa", "başla",
 
@@ -16,11 +16,11 @@ kelimeler = ["güzel, "bilmek", "soru", "iyileşmek", "gitmek", "zaman", "su", "
 
               "yeni", "çok", "sor", "onlar", "açık", "o", "hap", "iris", "ağla", "çılgın", "saat", "bölüm",
 
-              'birlik', 'kıdemli', 'ol', 'buzlu', 'içecek', 'onuncu', 'biber', 'ortalama', 'çok', 'yeşil', 'aylık', 'beğen', 'daha fazla ', 'elde etmek',
+              'birlik', 'kıdemli', 'ol', 'buzlu', 'içecek', 'onuncu', 'biber', 'ortalama', 'çok', 'yeşil', 'aylık', 'beğen', 'daha fazla', 'elde etmek',
 
-              'nihai', 'sadece', 'gel', 'yıllık', 'ver', 'dede', 'sonra', 'mümkün', 'yer', 'baba', 'adam', 'değil', 'her ',
+              'nihai', 'sadece', 'gel', 'yıllık', 'ver', 'dede', 'sonra', 'mümkün', 'yer', 'baba', 'adam', 'değil', 'her',
 
-              'istiyorum', 'yılan', 'dışarı çık', 'gör', 'gün', 'biz', 'git', 'çalış', 'ölüm', 'ara', 'eltun', 'bil', ' el ', 'zaman',
+              'istiyorum', 'yılan', 'dışarı çık', 'gör', 'gün', 'biz', 'git', 'çalış', 'ölüm', 'ara', 'eltun', 'bil', ' el', 'zaman',
 
               'yarasa', 'çocuk', 'birincil', 'bak', 'iş', 'içinde', 'büyük', 'hayır', 'başlangıç', 'yol', 'doğru', 'fiil', 'sen ',
 
@@ -32,7 +32,7 @@ kelimeler = ["güzel, "bilmek", "soru", "iyileşmek", "gitmek", "zaman", "su", "
 
              'kapı', 'kitap', 'üstün', 'burada', 'gece', 'alan', 'berber', 'içki', 'gizli', 'uzun', 'kainat', 'bugün', 'fokus',
 
-             'dost', 'soyisim', 'aile', 'üç', 'okumak','kişi', 'hərkəs', 'güç', 'bilmek', 'doğru', 'tam', 'gece', 'Emirbozan',
+             'dost', 'soyisim', 'aile', 'üç', 'okumak','kişi', 'herkes', 'güç', 'bilmek', 'doğru', 'tam', 'gece', 'Emirbozan',
 
              'çevre', 'eski', 'arama', 'özelharekat', 'ahali', 'yakın', 'yol', 'boy', 'tarih', 'özellik', 'bölüm', 'şahsi', 'akıl',
 
@@ -58,11 +58,11 @@ kelimeler = ["güzel, "bilmek", "soru", "iyileşmek", "gitmek", "zaman", "su", "
 
              'şekiliz', 'okul', 'dinlemek', 'uygun', 'dolar', 'passiv', 'tutku', 'unutmak', 'hırslı', 'gözlük', 'pis',
 
-             'maşın', 'ağız', 'dünya', 'uygulamak', 'hala', 'örnek', 'azlık', 'bakmak', 'derece', 'mümkün', 'dondurma',
+             'araba', 'ağız', 'dünya', 'uygulamak', 'hala', 'örnek', 'azlık', 'bakmak', 'derece', 'mümkün', 'dondurma',
 
-             'divar', 'onsuz', 'sene', 'ana', 'hastalık', 'öğrenci', 'televizor', 'kino', 'stul', 'ölmek', 'taksi', 'üst',
+             'duvar', 'onsuz', 'sene', 'ana', 'hastalık', 'öğrenci', 'televizyon', 'kino', 'masa', 'ölmek', 'taksi', 'üst',
 
-             'baş', 'mahnı', 'sevgi', 'enerji', 'üniversite', 'spor', 'türlü', 'cansız', 'balta', 'soyuducu', 'ölüm',
+             'baş', 'mahnı', 'sevgi', 'enerji', 'üniversite', 'spor', 'türlü', 'cansız', 'balta', 'soğutucu', 'ölüm',
 
              'dertli', 'sağlam', 'inek', 'muz', 'hissetmek', 'nine', 'sabah', 'internet', 'teknik', 'dondurma',
 
@@ -70,7 +70,7 @@ kelimeler = ["güzel, "bilmek", "soru", "iyileşmek", "gitmek", "zaman", "su", "
 
              'sarı', 'götürmek', 'katılmak', 'yoksul', 'kurmak', 'ödemek', 'sanki', 'karın', 'hasta', 'şehir', 'kalkmak',
 
-             'qara', 'qaynaq', 'hafta', 'künefe', 'hesap', 'latif', 'başka', 'davranış', 'mutfak', 'kent', 'bazar',
+             'qara', 'kaynak', 'hafta', 'künefe', 'hesap', 'latif', 'başka', 'davranış', 'mutfak', 'kent', 'bazar',
 
              'vacib', 'ayrı', 'qiymet', 'hakkında', 'kaldırmak', 'kola', 'tek', 'hazırlamak', 'ayna', 'sonunda', 'yavaş',
 
