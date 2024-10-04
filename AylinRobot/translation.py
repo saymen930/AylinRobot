@@ -1,7 +1,7 @@
-# @AylinRobot
-#@MusicAzBot
-# Sahib @HuseynH
-# Repo Açığdısa İcazəsis Götürmə Oğlum
+# 
+# 
+# 
+# Repo 
 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -9,34 +9,34 @@ class Translation(object):
 
     START_TEXT = """
 ╔═════════════════
-║▻ **🙋‍♀️ Salam {}**
+║▻ **🙋‍♀️ Selam {}**
 ║
-║▻ 🙋‍♀️ Mənim Adım  ️️️️️️🙎‍♀️ [{}](https://t.me/{}) Mən 
-║▻ 🇦🇿 Azərbaycan Dilində Çox Özəllikili 
-║▻ 💌 Telegram Botuyam Bacarıqlarımı Görmək Üçün
-║▻ `📚 Kömək` Buttonuna Toxun
+║▻ 🙋‍♀️ Benim Adım  ️️️️️️🙎‍♀️ [{}](https://t.me/{}) Ben 
+║▻ TR Türkçede Çok Özellikli 
+║▻ 💌 Telegram Botuyum Becerilerimi Görmek İçin
+║▻ `📚 yardım` Buttonuna Basın
 ╚═════════════════
 👨‍💻 **Sahibim** ♒️ @{}
 
 """    
     HELP_TEXT = """
 ╔═════════════════
-║▻ **🙋‍♀️ Salam {} 
+║▻ **🙋‍♀️ Selam {} 
 ║
 ║▻ 💁‍♀️ ️️️️️️ [{}](https://t.me/{})- Un  
-║▻ 📚 Əmrləri  Bunlardır Aşağıdakı 
-║▻ 🖲 Buttonlara Toxunaraq istədiyiniz
-║▻ ✔️ Əmr Haqqında Məlumat Ala Bilərsiniz 
+║▻ 📚 Komutlar  Bunlar Aşağıdaki 
+║▻ 🖲 Buttonlara Basarak istediyiniz
+║▻ ✔️ Komut Hakkında Bilgi Ala Bilirsiniz 
 ╚═════════════════
 """
 
     GSTART_TEXT = """
 ╔═════════════════
-║▻ **🙋‍♀️ Salam {} 
+║▻ **🙋‍♀️ Selam {} 
 ║
 ║▻ 💁‍♀️ ️️️️️️ [{}](https://t.me/{})
 ║
-║▻ ❤️‍🔥 {}  Qrupun Da Super İşləyir  🥳
+║▻ ❤️‍🔥 {}  grupun Da Güzel Çalışıyor  🥳
 ╚═════════════════
 """
 
@@ -46,119 +46,119 @@ class Translation(object):
 
     BH_TEXT = """
 ╔═════════════════
-║▻ **🙋‍♀️ Salam {} 
+║▻ **🙋‍♀️ Selam {} 
 ║
-║▻ 🙎‍♀️ [{}](https://t.me/{}) 🇦🇿 Azərbaycan Dilində Çox Özəllikli Telegram Botudur...**
+║▻ 🙎‍♀️ [{}](https://t.me/{}) TR Türkçede Çox Özellikli Telegram Botudur...**
 ║
-║▻ ✨ Bot Versiyası: v0.7.0
-║▻ 🍀 Pyrogram Versiyası: 1.4.16
-║▻ ✨ Python Versiyası: 3.11.1
-║▻ ⚙️ Server [Heroku](https://heroku.com)
-║▻ 📆 Botun İstifadəyə Verilmə Tarixi `20.11.2022` 
+║▻ ✨ Bot Versiyon: v0.7.0
+║▻ 🍀 Pyrogram Versiyon: 1.4.16
+║▻ ✨ Python Versiyon: 3.11.1
+║▻ ⚙️ Sunucu [Heroku](https://heroku.com)
+║▻ 📆 Bot Lisans Tarihi `20.11.2022` 
 ╚═════════════════
 ╔═════════════════
-║▻ **⚠️ Qeyd Botun Qrupunuzda İşləməsi 
-║▻ Üçün Admin Əmirlərindən Sadəcə 
-║▻ 💬 Mesajları Silmə 🚫 Yetkisi Verin**
+║▻ **⚠️ Grubunuzda Çalışması için 
+║▻ Sadece Yönetici Komutlarından 
+║▻ 💬 Mesajları Sil'e 🚫 İzin Ver**
 ╚═════════════════
 """
 
     MUSIC_TEXT = """
 ╔═════════════════
-║▻ 🔮 Istifadə: /song 
-║▻ 🧩 Nümunə: /song Rei - Ah Canım Sevgilim
-║▻ 📃 Açıqlama: Musiqi yükləyir.
+║▻ 🔮 Kullanım: /song 
+║▻ 🧩 Örnek: /song Rei - Ah Canım Sevgilim
+║▻ 📃 Açıklama: şarkı yükleniyor.
 ║
-║▻ 🔮 Istifadə: /video
-║▻ 🧩  Nümunə:/video Rei - Ah Canım Sevgilim
-║▻ 📃 Açıqlama: Video yükləyir.
+║▻ 🔮 Kullanım: /video
+║▻ 🧩  Örnek:/video Rei - Ah Canım Sevgilim
+║▻ 📃 Açıklama: Video yükleniyor.
 ║
 ║▻ 🔮 Istifadə: /lyrics 
-║▻ 🧩 Nümunə: /lyrics Rei - Ah Canım Sevgilim
+║▻ 🧩 Örnek: /lyrics Rei - Ah Canım Sevgilim
 ║
-║▻ 📃 Açıqlama: Musiqinin sözlərini tapır.
+║▻ 📃 Açıklama: şarkının sözlerini bulur.
 ╚═════════════════
 """
 
     TELEGRAPH_TEXT = """
 ╔═════════════════
-║▻ 🔮 Istifadə: /tgm
-║▻ 📃 Açıqlama: Şəkil, video və ya GIF göndərərək link ala bilərsiniz.
+║▻ 🔮 Kullanım: /tgm
+║▻ 📃 Açıklama: Fotoğraf, video və ya GIF göndererek link ala bilirsiniz.
 ╚═════════════════
 """
 
     SEHID_TEXT = """
 ╔═════════════════
-║▻ 🔮 Istifadə: /sehid 
-║▻ 📃 Açıqlama:  Bu əmr vaistəsiylə sizə **Şəhid** adları göndərəcəm
+║▻ 🔮 Kullanım: /şehit 
+║▻ 📃 Açıqlama:  Bu komutla size **Şehid** adları gönderecem
 ╚═════════════════
 ╔═════════════════
-║▻ 🥀 **Allah bütün Şəhidimizə rəhmət eləsin**
-║▻ 🤲 Qazilərimizə şəfa versin 
-║▻ 😔 Başın sağolsun Azərbaycan 🇦🇿
-║▻ 🇦🇿 Bazada **2881** Şəhid adı mövcuddur
+║▻ 🥀 **Allah bütün Şehitlerimize rahmət eylesin**
+║▻ 🤲 Mekanları Cennet Olsun 
+║▻ 😔 Başın sağolsun Vatan
+║▻ 🇦🇿/TR Botta **3130** Şehit adı mevcud
 ╚═════════════════
 """ 
     OYUN_TEXT = """
 ╔═════════════════
-║▻ 🔮 Istifadə: /zer
-║▻ 📃 Açıqlama: zər atar
+║▻ 🔮 Kullanım: /zer
+║▻ 📃 Açıklama: zər atar
 ║
-║▻ 🔮 Istifadə: /top
-║▻ 📃 Açıqlama: top atar
+║▻ 🔮 Kullanım: /top
+║▻ 📃 Açıklama: top atar
 ║
-║▻ 🔮 Istifadə: /bowling
-║▻ 📃 Açıqlama: bowling atar
+║▻ 🔮 Kullanım: /bowling
+║▻ 📃 Açıklama: bowling atar
 ║
-║▻ 🔮 Istifadə: /ox
-║▻ 📃 Açıqlama: ox atar
+║▻ 🔮 Kullanım: /ox
+║▻ 📃 Açıklama: ox atar
 ║
-║▻ 🔮 Istifadə: /jackpot
-║▻ 📃 Açıqlama: jackpot atar
+║▻ 🔮 Kullanım: /jackpot
+║▻ 📃 Açıklama: jackpot atar
 ║
-║▻ 🔮 Istifadə: /basket
-║▻ 📃 Açıqlama: basket atar
+║▻ 🔮 Kullanım: /basket
+║▻ 📃 Açıklama: basket atar
 ╚═════════════════
 
 ╔═════════════════
-║▻🆕️  SÖZ-OYUNU Nunun Əsas Əmrləri
+║▻🆕️  Kelime-Oyununun komutları
 ║
-║▻ 🔮 Istifadə: /game
-║▻ 📃 Açıqlama: Oyunu Başladar
+║▻ 🔮 Kullanım: /oyun
+║▻ 📃 Açıklama: Oyunu Başlatır
 ║
-║▻ 🔮 Istifadə: /kec
-║▻ 📃 Açıqlama: Çətin Sözü Keçər
+║▻ 🔮 Kullanım: /atla
+║▻ 📃 Açıklama: zor sözler
 ║
-║▻ 🔮 Istifadə: /stop
-║▻ 📃 Açıqlama: Mövcud Oyunu Saxlayar
+║▻ 🔮 Kullanım: /dur
+║▻ 📃 Açıklama: Oyunu durdurur
 ║
-║▻ 🔮 Istifadə: /skor
-║▻ 📃 Nümunə: Hər Bir Oyunçunun Reytinqi Göstərər
+║▻ 🔮 Kullanım: /skor
+║▻ 📃 Örnek: Her Bir Oyuncunun Derecesini Gösterir
 ╚═════════════════
 """
 
-    EYLENCE_TEXT = """
+    EğLENCE_TEXT = """
 ╔═════════════════
-║▻ 🔮 Istifadə: /soxri 
-║▻ 📃 Açıqlama: Rondom 16+ Şəkillər Atar.
+║▻ 🔮 Kullanım: /foto3 
+║▻ 📃 Açıklama: Rastgele 16+ fotoğrafları Atar.
 ║
-║▻ 🔮 Istifadə: /pisik
-║▻ 📃 Açıqlama: Rondom Pişik Şəkili Atar
+║▻ 🔮 Kullanım: /kedi
+║▻ 📃 Açıklama: Rastgele kedi fotoğrafları Atar
 ║
-║▻ 🔮 Istifadə: /anime
-║▻ 📃 Açıqlama: Rondom Anime Şəkili Atar
+║▻ 🔮 Kullanım: /anime
+║▻ 📃 Açıklama: Rastgele Anime fotoğrafları Atar
 ║
-║▻ 🔮 Istifadə: /masin
-║▻ 📃 Açıqlama: Rondom Maşın Şəkili Atar
+║▻ 🔮 Kullanım: /araba
+║▻ 📃 Açıklama: Rastgele Araba fotoğrafları Atar
 ║
-║▻ 🔮 Istifadə: /masin2
-║▻ 📃 Açıqlama: Rondom Maşın Videosu Atar
+║▻ 🔮 Kullanım: /araba2
+║▻ 📃 Açıklama: Rastgele Araba fotoğrafları Atar
 ║
-║▻ 🔮 Istifadə: /tema
-║▻ 📃 Açıqlama: Rondom Telegram Teması Atar
+║▻ 🔮 kullanım: /tema
+║▻ 📃 Açıklama: Rastgele Telegram Teması Atar
 ║
-║▻ 🔮 Istifadə: /pp
-║▻ 📃 Açıqlama: Rondom Profil Şəkili Atar
+║▻ 🔮 Kullanım: /pp
+║▻ 📃 Açıklama: Rastgele Profil fotoğrafları Atar
 ║
 ║▻ 🔮 Istifadə: /sevgi
 ║▻ 📃 Açıqlama: Hazır Sevgi Yə Aid Sözlər Atar.
