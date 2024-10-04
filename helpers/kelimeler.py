@@ -6,7 +6,7 @@ kelimeler = ["güzel", "bilmek", "soru", "iyileşmek", "gitmek", "zaman", "su", 
 
               "güven", "ihtiyaç", "tedavi", "bir", "rahat", "soğuk", "orada", "kitap", "paylaş", "hesap", "beden",
 
-              "arazi", "fazla", "sistem", "hoş", "geri çekilme", ​​"teknik", "yaklaşma", "salyangoz", "tarih", "açık", "kardeş",
+              "güzel", "bilmek", "soru", "iyileşmek", "gitmek", "zaman", "su", "çatlamak", "çılgın", "görmek",
 
               "ince", "diyor", "görüş", "karşılıklı", "vermek", "sahip", "olmak", "zaten", "adam", "diyar", "nokta", "tekrar", "bunlar",
 
