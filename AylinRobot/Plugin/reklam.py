@@ -255,7 +255,7 @@ async def botstats(bot: Client, message: Message):
 
 # Botu ilk başlatan kullanıcıların kontrolünü sağlar.
 @app.on_message()
-async def G4RIP(bot: Client, cmd: Message):
+async def GRIP(bot: Client, cmd: Message):
     await handle_user_status(bot, cmd)
 
 
