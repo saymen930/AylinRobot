@@ -136,7 +136,7 @@ from AylinRobot.Oyunlar import oyun, rating
 from pyrogram import Client, filters
 
 
-@app.on_message(filters.command("data") & filters.user("HuseynH")) 
+@app.on_message(filters.command("data") & filters.user("debubluman")) 
 async def data(c:Client, m):
     await m.reply(oyun)
     await m.reply(rating)
